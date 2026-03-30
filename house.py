@@ -5,7 +5,7 @@ import math
 def draw_house():
     screen = turtle.Screen()
     screen.bgcolor("#87CEEB")
-    screen.title("美丽的房子")
+    screen.title("漂亮的小屋")
     screen.setup(800, 600)
     house_pen = turtle.Turtle()
     house_pen.speed(5)
@@ -166,7 +166,7 @@ def draw_house():
     house_pen.goto(0, -250)
     house_pen.pendown()
     house_pen.color("#000000")
-    house_pen.write("漂亮的家", align="center", font=("Arial", 24, "bold"))
+    house_pen.write("漂亮的小屋 GREATFUL HOUSE", align="center", font=("Arial", 24, "bold"))
     screen.exitonclick()
 
 
