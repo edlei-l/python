@@ -131,53 +131,42 @@ def draw_house():
     house_pen.begin_fill()
     house_pen.circle(30)
     house_pen.end_fill()
-
     house_pen.penup()
     house_pen.goto(-220, 220)
     house_pen.pendown()
     house_pen.begin_fill()
     house_pen.circle(30)
     house_pen.end_fill()
-
     house_pen.penup()
     house_pen.goto(-190, 200)
     house_pen.pendown()
     house_pen.begin_fill()
     house_pen.circle(30)
     house_pen.end_fill()
-
     house_pen.penup()
     house_pen.goto(150, 250)
     house_pen.pendown()
     house_pen.begin_fill()
     house_pen.circle(25)
     house_pen.end_fill()
-
     house_pen.penup()
     house_pen.goto(175, 265)
     house_pen.pendown()
     house_pen.begin_fill()
     house_pen.circle(25)
     house_pen.end_fill()
-
     house_pen.penup()
     house_pen.goto(200, 250)
     house_pen.pendown()
     house_pen.begin_fill()
     house_pen.circle(25)
     house_pen.end_fill()
-
-    # 隐藏画笔
     house_pen.hideturtle()
-
-    # 显示完成信息
     house_pen.penup()
     house_pen.goto(0, -250)
     house_pen.pendown()
     house_pen.color("#000000")
     house_pen.write("漂亮的家", align="center", font=("Arial", 24, "bold"))
-
-    # 点击关闭窗口
     screen.exitonclick()
 
 
